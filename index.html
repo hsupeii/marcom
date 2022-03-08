@@ -72,34 +72,40 @@
 		<div class="row ">
 			<div class="col3">
 				<div class="solutionMenu">
+					<a href="solution_marketing.html">
 						<img src="img/solution1.png">
 						<h3>Marketing</h3>
 						<p>平面設計服務<br>展覽、公關活動規劃<br>新聞、雜誌、數媒服務</p>
+					</a>
 				</div>
 			</div>
 			<div class="col3">
 				<div class="solutionMenu">
+					<a href="solution_digital_marketing.html">
 						<img src="img/solution2.png">
 						<h3>Digital Marketing</h3>
 						<p>網站建置服務<br>數位行銷服務<br>數位視覺設計服務</p>
+					</a>
 				</div>
 			</div>
 			<div class="col3">
 				<div class="solutionMenu">
+					<a href="solution_web_development.html">
 						<img src="img/solution3.png">
 						<h3>Web Development</h3>
 						<p>系統開發服務</p>
 						<p>&nbsp</p>
 						<p>&nbsp</p>
+					</a>
 				</div>
 			</div>
 		</div>
 
-		<div class="row">
+		<!-- <div class="row">
 			<a href="solution_marketing.html">
 				<div class="button">成功案例</div>
 			</a>
-		</div> 
+		</div>  -->
 
 	</section>
 		
@@ -112,7 +118,7 @@
 		<div class="row">
 			<div class="content">
 				<p>
-					我們團隊所向無敵青春活力俊男美女齊聚<br>我們團隊所向無敵青春活力俊男美女齊聚我們團隊所向無敵青春活力俊男美<br>女齊聚我們團隊所向無敵青春活力俊男美女齊聚我們團隊所向無敵青春活力俊男美女齊聚
+					MARCOM 4.0提供一系列整合式的專業服務，不管在傳統行銷、數位行銷以及系統開發上，我們將透過我們專業能力來服務各位，服務主旨講求「攜手向前，共創未來」，致力成為各艦隊/部門強大的後盾，讓前線奮勇殺敵的同仁們擁有更多資源，一起共享成功的果實。
 				</p>
 			</div>
 		</div>
@@ -173,11 +179,11 @@
 		</div>
 
 		<div class="row">
-			<div class="content">
-				<h3><img src="img/pen.png">立即連絡我們</h3>
+			<div class="content"><!-- 
+				<h3><img src="img/pen.png">立即連絡我們</h3> -->
 
 				<form class="sendMessage clearfix" action="" id="sendMessage">
-					<div class="half">
+					<!-- <div class="half">
 						<label for="name"><p>姓&nbsp&nbsp名:</p></label><input type="text" name="name"><br>
 						<label for="email"><p>E-mail:</p></label><input type="email" name="email"><br>
 						<label for="dept"><p>部門單位:</p></label><input type="text" name="dept"><br>
@@ -187,10 +193,10 @@
 						<label for="message"><p>需求內容:</p></label>
 						<textarea name="message" form=""></textarea>
 					</div>
-
+ -->
 					<div class="row clearfix">
 						<div class="button">
-							<input type="submit" name="submit" value="確認送出">
+							<a href=""><img src="img/pen.png">聯絡我們</a>
 						</div>
 					</div>
 
@@ -246,6 +252,11 @@
 		 
 		});
 
+	</script>
+
+	<!-- Home 粒子效果 -->
+	<script type="text/javascript">
+		particlesJS("particles-js", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
 	</script>
 
 	
